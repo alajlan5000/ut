@@ -80,7 +80,7 @@ footer { background:#fff; text-align:center; padding:15px; font-size:14px; color
   <div class="card">
     <h2>🔍 البحث والفلترة</h2>
     <select id="filterMajor">
-      <option value="">اختر التخصص</option>
+      <option value="">اختر الكلية </option>
     </select>
     <button onclick="filterGroups()">بحث</button>
   </div>
@@ -89,7 +89,7 @@ footer { background:#fff; text-align:center; padding:15px; font-size:14px; color
     <h2>➕ إضافة / تعديل قروب</h2>
     <form id="addForm" onsubmit="addGroup(event)">
       <select id="course" required>
-        <option value="">اختر التخصص</option>
+        <option value="">اختر الكلية</option>
       </select>
       <input type="text" id="section" placeholder="رقم الشعبة" required>
       <input type="text" id="subject" placeholder="اسم المقرر" required>
@@ -241,4 +241,5 @@ fetchGroups();
 
 </body>
 </html>
+
 
